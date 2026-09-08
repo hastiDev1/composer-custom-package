@@ -1,0 +1,27 @@
+{
+    "name": "hasti/calculator",
+    "description": "A simple calculator package for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hasti\\Calculator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hastiDev1",
+            "email": "hasti.adeyetech@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hasti\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    }
+}
